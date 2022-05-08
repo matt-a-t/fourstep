@@ -1,23 +1,20 @@
-import Head from 'next/head'
-import Header from '@components/Header'
-import Footer from '@components/Footer'
+import Head from "next/head";
 
 export default function Home() {
   return (
-    <div className="container">
+    <>
       <Head>
-        <title>Next.js Starter!</title>
+        <title>Home</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <main>
-        <Header title="Welcome to my app!" />
-        <p className="description">
-          Get started by editing <code>pages/index.js</code>
-        </p>
-      </main>
-
-      <Footer />
-    </div>
-  )
+      <h1>Fourth Step Guide</h1>
+      <p>
+        Based Upon the Book <u>Alcoholics Anonymous</u>
+      </p>
+      <p>Third Edition, Pages 64 to 71</p>
+      <p>Form designed by Joe M. & Charlie P.</p>
+      <p>Digitized by Matt A.</p>
+    </>
+  );
 }
