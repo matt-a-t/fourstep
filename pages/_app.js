@@ -1,6 +1,6 @@
 import "@styles/globals.css";
 import { Grommet } from "grommet";
-import Layout from "./layout/Layout";
+import Layout from "../components/layout/Layout";
 import Head from "next/head";
 
 const theme = {

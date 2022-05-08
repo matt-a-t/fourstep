@@ -9,6 +9,7 @@
   },
   "dependencies": {
     "grommet": "^2.23.0",
+    "grommet-icons": "^4.7.0",
     "next": "^12.1.5",
     "polished": "^4.2.2",
     "react": "^17.0.2",
