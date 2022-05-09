@@ -46,7 +46,7 @@ export default function ResentmentsColumnOne() {
           label="Next Column"
           margin="large"
           onClick={() => {
-            router.push("resentments/column/two");
+            router.push("/resentments/column/two");
           }}
         />
       )}

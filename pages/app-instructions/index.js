@@ -8,10 +8,15 @@ export default function Instructions(props) {
       <h1>Fourth Step</h1>
       <p>
         This app will collect your responses and walk you through creating 3
-        tables to work through the fourth step of a 12 step program. All data is
-        saved locally in your browser, meaning none of it is sent anywhere or
-        stored anywhere your normal web traffic isn't. We will soon be making it
-        possible to export the tables to share and backup.
+        tables to work through the fourth step of a 12 step program.
+      </p>
+      <p>
+        All data entered is saved locally in your browser, meaning none of it is
+        sent anywhere. This is just to help you organize your thoughts.
+      </p>
+      <p>
+        We will soon be making it possible to export the tables to share and
+        backup.
       </p>
       <p>The three categories of the tables we create will be:</p>
       <ul>
