@@ -30,7 +30,7 @@ export default function Instructions(props) {
         size="large"
         label="Begin"
         onClick={() => {
-          router.push("/resentment-instructions");
+          router.push("/resentments/instructions");
         }}
       />
     </Box>
